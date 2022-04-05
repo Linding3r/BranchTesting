@@ -11,5 +11,11 @@ public class Main {
 
     System.out.println(dog1.eat("shit"));
     System.out.println(cat1.eat("FIsh"));
+
+    dog1.mood(false);
+    dog1.mood(true);
+    cat1.mood(false);
+    cat1.mood(true);
+
   }
 }
