@@ -8,5 +8,8 @@ public class Main {
 
     cat1.makeSound();
     dog1.makeSound();
+
+    System.out.println(dog1.eat("shit"));
+    System.out.println(cat1.eat("FIsh"));
   }
 }
